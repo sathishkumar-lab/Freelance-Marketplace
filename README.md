@@ -29,7 +29,7 @@ E-mail:client1@gmail.com
 Password: 12345
 
 ### User Login
-E-mail: freelancer@test.com
+E-mail: freelancer1@gmail.com
 Password: free1234
 
 ## Developed By
