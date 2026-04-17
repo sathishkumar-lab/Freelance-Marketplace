@@ -23,6 +23,14 @@ This project is a freelance marketplace web application developed as part of the
 3. Place the project in htdocs
 4. Run localhost/projectname
 
+## Demo Login Credentials
+### Client Login
+E-mail:client1@gmail.com 
+Password: 12345
+
+### User Login
+E-mail: freelancer@test.com
+Password: free1234
+
 ## Developed By
-Sathish Kumar
-BCA Student
+BCA Students
