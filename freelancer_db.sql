@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 09, 2025 at 12:48 PM
+-- Generation Time: Apr 17, 2026 at 02:42 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -45,13 +45,7 @@ CREATE TABLE `bids` (
 --
 
 INSERT INTO `bids` (`id`, `project_id`, `bidder_id`, `name`, `email`, `bid_amount`, `location`, `resume`, `portfolio`, `bid_date`) VALUES
-(13, 1, 5, 'Sathish Kumar V', 'SathishKumar@gmail.com', 25000.00, '0', 'sathishkumar.pdf', 'https://www.bangmedia.com.au/work?tab=service&service=All', '2025-02-25 09:33:47'),
-(16, 3, 1, 'Ganeshkumar S', 'ganeshkumar@gmail.com', 20000.00, '0', 'ganeshkumar.pdf', 'https://www.kyliemalcolm.com/website-design', '2025-02-26 23:30:08'),
-(17, 2, 8, 'Deva Prakash', 'devanshprakash@gmail.com', 18000.00, '0', 'deva.pdf', 'https://www.devanshprakash.com/', '2025-02-26 23:44:34'),
-(18, 7, 1, 'suriya A', 'suriya@gmail.com', 10000.00, '0', 'sk.pdf', 'https://www.rayraylab.com/', '2025-02-27 00:20:15'),
-(19, 1, 1, 'sainath', 'sainath12@gmail.com', 23452.00, '0', 'sai.pdf', 'https://dstanimirov.com/', '2025-03-02 23:10:08'),
-(20, 1, 1, 'Rajavelan A', 'rajavelan5678@gmail.com', 23452.00, '0', 'raja.pdf', 'https://www.lonzovisuals.com/404', '2025-04-01 04:35:55'),
-(21, 2, 1, 'varun vishal', 'markariani@gmail.com', 19500.00, '0', 'varun.pdf', 'https://markariani.com/', '2025-04-01 04:37:14');
+(31, 13, 33, 'freelancer 1', 'freelancer1@gmail.com', 25000.00, '0', 'freelancer1.pdf', 'https://freelance-128.webflow.io/', '2026-04-17 12:40:34');
 
 -- --------------------------------------------------------
 
@@ -77,9 +71,11 @@ CREATE TABLE `projects` (
 --
 
 INSERT INTO `projects` (`id`, `user_id`, `project_title`, `project_description`, `skills`, `budget`, `timeline`, `bid_deadline`, `status`, `created_at`) VALUES
-(1, 1, 'Logo and Brand Identity Design for Local Cafe', 'I’m looking for a creative logo and complete brand identity for a new local cafe. The logo should be modern and fresh, capturing the cozy and 	welcoming vibe of the cafe. Along with the logo, you will create branding materials like a color palette, typography guidelines, and a business card 	design.\r\n\r\nKey Responsibilities:\r\n\r\n1. Design a logo that represents the cafe\'s unique atmosphere and values.\r\n2. Create a color scheme and typography style that matches the brand’s personality.\r\n3. Develop business card designs, letterheads, and other basic branding materials.\r\n\r\nIdeal Skills:\r\n\r\n1. Experience in logo and brand identity design.\r\n2. Strong portfolio showcasing branding projects.\r\n3. Ability to communicate design concepts effectively.\r\n4.Your designs should reflect the friendly and inviting nature of the cafe, while maintaining a professional touch.', 'Adobe Illustrator / Photoshop, Logo Design, Visual Identity Design, Typography, Color Theory', '20,000 - 35,000', '2-3 weeks', '2025-02-26', 'Open', '2025-02-24 04:40:54'),
-(2, 5, 'WordPress Website for Portfolio', 'I need a WordPress developer to create a portfolio website that showcases my work as a photographer. The website should be visually appealing, easy 	to navigate, and feature a gallery for showcasing my photos. It should also include an about section, contact form, and a blog.\r\n\r\nKey Responsibilities:\r\n	\r\n1. Build a custom WordPress theme or customize an existing theme to meet the design needs.\r\n2. Create a gallery that allows easy uploading and display of high-quality images.\r\n3. Ensure the website is responsive and optimized for both desktop and mobile.\r\n\r\nIdeal Skills:\r\n\r\n1. Experience with WordPress theme development or customization.\r\n2. Proficiency in HTML, CSS, and basic PHP.\r\n3. Knowledge of SEO best practices for WordPress.\r\n4. The website should be clean, professional, and visually showcase my photography in the best possible way.\r\n', 'WordPress Development, HTML, CSS, PHP, Responsive , Web Design, SEO for WordPress', ' 15,000-25,000', '2-3 weeks', '2025-02-28', 'Open', '2025-02-25 10:00:08'),
-(3, 5, ' E-commerce Website for Small Business', 'We are seeking an experienced web developer to create an e-commerce website for a small online store. The site should have a smooth shopping 	experience, secure payment gateway integration, product catalog, and an easy-to-use admin panel to manage orders.\r\n\r\nKey Responsibilities:\r\n\r\n1. Set up an online store using platforms like WooCommerce or Shopify.\r\n2. Integrate secure payment gateways and ensure the checkout process is smooth.\r\n3. Design product pages with product details, pricing, and images.\r\n4. Ensure the website is mobile-friendly and fully responsive.\r\n\r\nIdeal Skills:\r\n\r\n1. Experience in setting up e-commerce websites (WooCommerce, Shopify, etc.).\r\n2. Proficiency in HTML/CSS and JavaScript.\r\n3. Knowledge of secure payment integrations.\r\n4. The website must be functional and user-friendly, providing customers with a smooth online shopping experience.', 'HTML / CSS, JavaScript, Payment Gateway Integration, Responsive Web Design, SEO, User Experience (UX)', ' 35,000 - 50,000', '4-5 weeks', '2025-03-08', 'Open', '2025-02-25 10:10:27');
+(13, 32, 'Logo and Brand Identity Design for Local Cafe', 'We are launching a new local cafe and are in need of a creative and experienced designer to help us build a complete brand identity from the ground up. The design should capture the cozy, welcoming, and community-driven vibe of the cafe, while also standing out with a modern and professional aesthetic.\r\n\r\nThe core objective is to design a logo that reflects the personality and warmth of the cafe, accompanied by a cohesive visual identity. This includes defining the brand\'s color palette, typography guidelines, and creating essential branding materials such as business cards and letterheads.\r\n\r\nThe branding will be used across various platforms including signage, packaging, social media, and digital marketing materials. The visual identity should feel friendly and approachable but also clean and versatile for long-term use.\r\n\r\nKey Responsibilities:\r\nDesign a unique and memorable logo that represents the cafe’s ambiance and values.\r\n\r\nCreate a color palette that aligns with the mood and style of the cafe.\r\n\r\nDevelop typography guidelines that pair well with the brand’s tone and visuals.\r\n\r\nDesign business cards, letterheads, and other basic brand collateral.\r\n\r\nDeliver all assets in high-resolution and editable formats.\r\n\r\nIdeal Skills:\r\nExperience in logo and brand identity design\r\n\r\nStrong portfolio showcasing branding projects\r\n\r\nExpertise in Adobe Illustrator and Photoshop\r\n\r\nUnderstanding of color theory and typography\r\n\r\nAbility to communicate design concepts and iterate based on feedback', 'Logo Design, Adobe Illustrator, Visual Identity, Typography, Color Theory', '20,000 – 35,000', '2–3 weeks', '2027-05-17', 'Open', '2026-04-17 12:10:45'),
+(14, 32, 'E-commerce Website Development for Clothing Brand', 'We are launching a new online clothing brand and are looking for an experienced web developer to build a fully functional e-commerce website. The website should provide a smooth shopping experience with modern design and secure payment integration.\r\n\r\nThe goal is to create a responsive, user-friendly platform where customers can browse products, filter categories, add items to cart, and complete secure purchases. The design should reflect a stylish and trendy fashion identity while maintaining professional standards.\r\n\r\nThe platform must support product management, order tracking, and customer account features. The final website should be optimized for speed, SEO, and mobile devices.\r\n\r\nKey Responsibilities\r\nDevelop a responsive e-commerce website\r\nIntegrate secure payment gateways\r\nCreate product management dashboard\r\nImplement shopping cart and checkout system\r\nEnsure SEO and performance optimization\r\nIdeal Skills\r\nExperience in e-commerce development\r\nKnowledge of HTML, CSS, JavaScript, PHP or Laravel\r\nPayment gateway integration\r\nDatabase management\r\nResponsive web design', 'Web Development, E-commerce Development, PHP/Laravel, MySQL, Payment Integration', '25,000 – 45,000', '3 months', '2027-05-17', 'Open', '2026-04-17 12:19:47'),
+(15, 32, 'Social Media Marketing Campaign for Startup', 'We are a newly established startup seeking a digital marketing expert to plan and execute a strategic social media campaign. The objective is to build brand awareness, increase engagement, and generate quality leads.\r\n\r\nThe campaign should include content planning, creative post design, caption writing, and audience targeting strategies. The tone should be modern, engaging, and aligned with our brand identity.\r\n\r\nPerformance tracking and analytics reporting will be required to measure campaign success.\r\n\r\nKey Responsibilities\r\nDevelop monthly content calendar\r\nDesign creative posts and ad banners\r\nManage paid advertising campaigns\r\nMonitor engagement and analytics\r\nOptimize campaigns based on performance\r\nIdeal Skills\r\nSocial media marketing experience\r\nKnowledge of Facebook & Instagram Ads\r\nContent creation skills\r\nAnalytics and reporting\r\nBrand strategy understanding', 'Digital Marketing, Social Media Management, Content Strategy, Paid Advertising', '20,000 – 35,000', '1-2 months', '2027-05-17', 'Open', '2026-04-17 12:21:22'),
+(16, 32, 'Professional Video Editing for YouTube Channel', 'We are seeking a skilled video editor to edit educational YouTube content. The goal is to create engaging, high-quality videos with smooth transitions, background music, subtitles, and motion graphics.\r\n\r\nThe editor should enhance the overall viewing experience by adding visual elements that maintain audience interest while keeping the content professional.\r\n\r\nVideos will be 8–12 minutes long and require weekly editing.\r\n\r\nKey Responsibilities\r\nEdit raw footage professionally\r\nAdd background music and effects\r\nCreate engaging intro and outro\r\nAdd subtitles and basic animations\r\nDeliver high-quality HD output\r\nIdeal Skills\r\nExperience in video editing\r\nProficiency in Adobe Premiere Pro or Final Cut Pro\r\nMotion graphics knowledge\r\nAttention to detail', 'Video Editing, Adobe Premiere Pro, Motion Graphics, Audio Editing', '15,000 – 30,000', '1–2 months initial contract', '2027-05-17', 'Open', '2026-04-17 12:22:46'),
+(17, 32, 'Brand Identity Design for Tech Startup', 'We are launching a technology startup and require a creative designer to build a strong brand identity. The objective is to create a modern, innovative, and professional visual identity that represents trust and growth.\r\n\r\nThis includes logo design, color palette development, typography guidelines, and basic brand materials such as business cards and social media templates.\r\n\r\nThe branding should be adaptable for both digital and print platforms.\r\n\r\nKey Responsibilities\r\nDesign unique logo concepts\r\nDevelop brand color system\r\nCreate typography guidelines\r\nDesign business cards and social media templates\r\nProvide high-resolution and editable files\r\nIdeal Skills\r\nBranding and logo design experience\r\nStrong portfolio\r\nExpertise in Adobe Illustrator & Photoshop\r\nUnderstanding of modern design trends', 'Logo Design, Branding, Adobe Illustrator, Visual Identity', '20,000 – 25,000', '2–3 weeks', '2027-05-17', 'Open', '2026-04-17 12:25:15');
 
 -- --------------------------------------------------------
 
@@ -100,10 +96,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `username`, `email`, `password`, `created_at`) VALUES
-(1, 'vsathish', 'vsathish@gmail.com', '$2y$10$auPxlNFG9PhtgT.t5rNduOtTtmrwkozz30xlkeARYccl8QCLWadJ2', '2025-02-24 03:48:07'),
-(5, 'karthi', 'karthi@gmail.com', '$2y$10$HTNfyXJoS0.SIhjnowAJPO/djnoq7evHaxlh5aoTcsbFapM7bGXjq', '2025-02-24 05:14:02'),
-(15, 'karthi', 'skarthikn19@gmail.com', '$2y$10$oPm14lvNohE17bGREX4piOFG1CCr6mOlKbxJSRWlNIIkThI784qru', '2025-04-01 03:09:09'),
-(22, 'Sathish Kumar', 'vsathishsk183@gmail.com', '$2y$10$s/QHvxMW5HOM0vJVH4ijDu8nOKc.ZF.PptPjwdNJV1sd2mERD847.', '2025-04-07 10:43:35');
+(28, 'vsathish', 'example1@gmail.com', '123456', '2025-04-15 11:04:47'),
+(32, 'client 1', 'client1@gmail.com', '$2y$10$DrtNR.In6VFOHo.VTrh1weRynMtauExiZHtGiP3XeRgPwUt03Xn3q', '2026-04-17 12:09:02'),
+(33, 'freelancer1', 'freelancer1@gmail.com', '$2y$10$nuJ2NJCQYAQNWLo4lRYcau/nCXF.JPFjsWYIzp1PGIcH23tkxKfbq', '2026-04-17 12:33:18');
 
 --
 -- Indexes for dumped tables
@@ -137,19 +132,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `bids`
 --
 ALTER TABLE `bids`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT for table `projects`
 --
 ALTER TABLE `projects`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- Constraints for dumped tables
